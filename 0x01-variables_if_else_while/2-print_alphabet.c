@@ -1,16 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int n;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	c = 'a';
+	while
+		(c <= 'z'){
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
 	return (0);
 }
