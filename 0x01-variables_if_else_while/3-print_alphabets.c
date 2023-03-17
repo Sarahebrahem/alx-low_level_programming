@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - Entry point
@@ -7,10 +5,22 @@
  */
 int main(void)
 {
-	int n;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'z') {
+			putchar(c);
+			d++;
+		}
+	putchar('\n');
 	return (0);
 }
