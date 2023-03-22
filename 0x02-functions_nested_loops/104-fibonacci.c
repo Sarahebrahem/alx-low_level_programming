@@ -7,16 +7,22 @@
  */
 int main(void)
 {
-int a = 1, b = 2, c;
+int a = 1;
+int b = 2;
 int i;
+int c;
 printf("%d, %d, ", a, b);
-for (i = 2; i < 98; i++)
+for (i = 3; i <= 98; i++)
 {
 c = a + b;
-printf("%d, ", c);
+printf("%d", c);
+}
+if (i < 98)
+{
+printf(", ");
 a = b;
 b = c;
 }
-printf("%d\n", a + b);
+printf("\n");
 return (0);
 }
