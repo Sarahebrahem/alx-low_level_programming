@@ -5,15 +5,14 @@
  */
 int main(void)
 {
-long long fib1 = 1, fib2 = 2, fib;
-int i;
-printf("%lld, %lld", fib1, fib2);
+int fib1 = 1, fib2 = 2, temp, i;
+printf("%d, %d", fib1, fib2);
 for (i = 3; i <= 50; i++)
 {
-fib = fib1 + fib2;
-printf(", %lld", fib);
-fib1 = fib2;
-fib2 = fib;
+temp = fib2;
+fib2 += fib1;
+fib1 = temp;
+printf(", %d", fib2);
 }
 printf("\n");
 return (0);
