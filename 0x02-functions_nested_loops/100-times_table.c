@@ -21,11 +21,11 @@ for (j = 0; j <= n; j++)
 int result = i * j;
 if (j == 0)
 {
-printf("  %d,", result);
+printf(" %d,", result);
 }
 else
 {
-printf("  %4d,", result);
+printf(" %4d,", result);
 }
 }
 printf("\n");
