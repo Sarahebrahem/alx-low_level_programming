@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 /**
  * main - Entry point
  * Return: 0 (success)
@@ -6,15 +8,12 @@
 int main(void)
 {
 int a = 1, b = 2, c;
-printf("%d, %d, ", a, b);
-for (int i = 2; i < 98; i++)
+int i;
+printf("%d %d, ", a, b);
+for (i = 2; i < 98; i++)
 {
 c = a + b;
-printf("%d", c);
-if (i != 97)
-{
-printf(", ");
-}
+printf("%d, ", c);
 a = b;
 b = c;
 }
