@@ -1,4 +1,10 @@
+#include <stdio.h>
 #include "main.h"
+/**
+ * positive_or_negative - function to assign random number
+ * @i: the int to be checked
+ * Return: 0 (success)
+ */
 void positive_or_negative(int i)
 {
 if (i > 0)
